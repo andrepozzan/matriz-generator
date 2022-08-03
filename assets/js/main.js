@@ -42,6 +42,7 @@ function generateMatriz(law, rowSize, columnSize) {
 button.addEventListener("click", () => {
     title.classList.remove("display-none");
     table.classList.remove("display-none");
+    table.parentNode.classList.remove("display-none");
 
     table.innerHTML = "";
 

@@ -42,7 +42,7 @@
     font-size: 2rem;
 }
 
-.modal__square-brackets {
+.modal__matriz-border {
     border: 5px solid;
     border-image-slice: 1;
     border-width: 5px;
