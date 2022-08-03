@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "icons";
+    src: url(../../fonts/typicons.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    font-family: icons, "Secular One", sans-serif;
+
+    background: linear-gradient(90deg, #00b4db, #0083b0);
+}

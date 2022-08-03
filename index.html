@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gerador de Matrizes | André</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/base/reset.css" />
+        <link rel="stylesheet" href="assets/css/base/base.css" />
+        <link rel="stylesheet" href="assets/css/modal.css" />
+    </head>
+    <body>
+        <section class="modal">
+            <h1 class="modal__title">Gerador de Matrizes</h1>
+
+            <label class="modal__label" for="Rows">Quantidade de linhas:</label>
+            <input class="modal__input" id="Rows" type="number" placeholder="5" />
+
+            <label class="modal__label" for="Columns">Quantidade de Colunas:</label>
+            <input class="modal__input" id="Columns" type="number" placeholder="3" />
+
+            <label class="modal__label" for="Law">Lei de formação:</label>
+            <input class="modal__input" id="Law" type="text" placeholder="3*i-2*j+4" />
+
+            <h2 class="modal__subtitle display-none">Resultado:</h2>
+            <div class="modal__square-brackets">
+                <table id="matriz" class="display-none"></table>
+            </div>
+
+            <button id="button" class="modal__button" type="button">Gerar</button>
+
+            <h3 class="modal__link"><a href="https://andre-possan.github.io/">Feito por André Corso Pozzan <3</a></h3>
+        </section>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,99 @@
+.modal {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    background-color: white;
+
+    margin: 0 1rem;
+    padding: 2rem;
+
+    border-radius: 20px;
+
+    box-shadow: 20px 20px 60px #00b4db, -20px -20px 60px #0083b0;
+}
+
+.modal__title::before {
+    content: "\e117";
+    font-size: 3rem;
+}
+
+.modal__title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.modal__label {
+    font-size: 1.2rem;
+}
+
+.modal__input {
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    outline: none;
+    border-radius: 5px;
+    border: 3px outset #00b4db;
+
+    margin-bottom: 1rem;
+}
+
+.modal__subtitle {
+    font-size: 2rem;
+}
+
+.modal__square-brackets {
+    border: 5px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to bottom, #396afc, #2948ff);
+
+    padding: 1rem;
+    margin: 1rem 0 4rem 0;
+}
+
+#matriz {
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+#matriz th {
+    padding-bottom: 0.5rem;
+}
+.modal__link {
+    text-align: center;
+}
+
+.modal__link a {
+    color: #0083b0;
+}
+
+.modal__link a:hover {
+    color: #00b4db;
+}
+
+.modal__button {
+    border: 5px solid transparent;
+    border-radius: 10px;
+
+    outline: none;
+    background-color: #0083b0;
+
+    color: white;
+    font-family: "Secular One", sans-serif;
+    font-size: 2rem;
+
+    transition: 200ms;
+
+    margin-bottom: 1rem;
+}
+
+.modal__button:hover {
+    transform: translateY(-5px);
+    background-color: #00b4db;
+    border-color: #0083b0;
+}
+
+.display-none {
+    display: none;
+}
