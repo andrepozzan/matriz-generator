@@ -5,8 +5,7 @@
 
     background-color: white;
 
-    margin: 0 1rem;
-    padding: 2rem;
+    margin: 1rem;
 
     border-radius: 20px;
 
@@ -49,8 +48,9 @@
     border-width: 5px;
     border-image-source: linear-gradient(to bottom, #396afc, #2948ff);
 
-    padding: 1rem;
-    margin: 1rem 0 4rem 0;
+    margin: 1rem 0 2rem 0;
+
+    overflow: scroll;
 }
 
 #matriz {
@@ -59,7 +59,7 @@
 }
 
 #matriz th {
-    padding-bottom: 0.5rem;
+    padding: 0.3rem;
 }
 .modal__link {
     text-align: center;
@@ -97,4 +97,34 @@
 
 .display-none {
     display: none;
+}
+
+/* Mobile */
+@media screen and (min-width: 0px) {
+    .modal {
+        padding: 1rem;
+    }
+
+    .modal__matriz-border {
+        max-width: 90vw;
+        max-height: 80vh;
+    }
+}
+
+/* Laptop */
+@media screen and (min-width: 769px) {
+    .modal {
+        padding: 2rem;
+    }
+    .modal__matriz-border {
+        max-width: 60vw;
+        max-height: 30vh;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1441px) {
+    .modal__matriz-border {
+        max-width: 35vw;
+    }
 }

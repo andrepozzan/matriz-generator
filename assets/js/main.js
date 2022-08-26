@@ -1,5 +1,5 @@
 console.clear();
-console.log("\033[1;34;46mGerador de Matriz com JS, feito por github.com/andre-possan :D  \033[m");
+console.log("%cGerador de Matriz com JS, feito por github.com/andre-possan :D", "color:royalblue; font-weight:bold; font-size:1.2rem; text-decoration:underline");
 
 const title = document.querySelector(".modal__subtitle");
 const button = document.querySelector("#button");
@@ -30,12 +30,13 @@ function generateMatrizRow(law, numberOfRow, columnSize) {
 }
 
 function generateMatriz(law, rowSize, columnSize) {
+    matriz = [];
     for (let i = 1; i <= rowSize; i++) {
         let row = generateMatrizRow(law, i, columnSize);
         matriz[i - 1] = row;
     }
 
-    console.log("\033[1;37;42m---> Finalizado! :D <---\033[m");
+    console.log("%c==> Finalizado! :D <==", "color:lightgreen; font-weight:bold; font-size:1.2rem");
     console.log(matriz);
 }
 
