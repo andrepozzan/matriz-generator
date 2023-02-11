@@ -8,7 +8,7 @@ If you have any recommendations or want to report a bug, you can get in touch. :
 
 ## To view
 
-:octocat: Go to github pages to access the page: <a href="https://andre-possan.github.io/matriz-generator/" target="_blank">https://andre-possan.github.io/matriz-generator/</a>
+:octocat: Go to github pages to access the page: <a href="https://andrepozzan.github.io/matriz-generator/" target="_blank">https://andrepozzan.github.io/matriz-generator/</a>
 
 ## Resources:
 
